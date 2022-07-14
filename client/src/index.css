@@ -1,0 +1,226 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.cardContainer{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin:auto;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px;
+  background-color: white;
+  box-shadow: 1px 1px 5px gray;
+}
+.card img{
+  height: 300px;
+  width: 300px;
+}
+.cardDesc{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  /* margin: 0px; */
+  /* margin-top: 10px; */
+  line-height: 25px;
+}
+.galleryCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.galCards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.galCards form{
+  display: flex;
+  flex-direction: column;
+}
+.galCards form input,textarea{
+  padding: 15px;
+  width: 500px;
+  background-color: whitesmoke;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 20px;
+  outline: none;
+  font-size: 20px;
+}
+.galCards button{
+  padding: 15px;
+  width: 530px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.CardDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.cardDetail{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  box-shadow: 1px 1px 5px grey;
+}
+.cardDet{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  line-height: 25px;
+}
+.cardDesc h1:hover{
+  text-decoration: underline;
+  color:brown;
+}
+.deleteEditBtn{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.deleteEditBtn button{
+  padding: 5px 10px;
+  margin:10px 0px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  /* border: none; */
+  margin: 10px 20px;
+}
+.deleteEditBtn button:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.updateCard{
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.uptoCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.uptoCard form{
+  display: flex;
+  flex-direction: column;
+}
+.uptoCard form input,textarea{
+  width: 460px;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  background-color: whitesmoke;
+  border-bottom: 2px solid gray;
+  font-size: 20px;
+  outline: none;
+}
+.uptoCard form button{
+  width: 500px;
+  margin: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.prevnextbtn{
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.prevnextbtn button{
+  padding: 10px;
+  margin: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.prevnextbtn button:hover{
+  background-color: white;
+  color: black;
+}
+footer{
+  display: flex;
+}
+footer button{
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-weight: bolder;
+  border: none;
+  /* border: 2px solid gray; */
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+footer button:hover{
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+.searchContainer{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.errorContainer{
+  display: flex;
+  background-color: whitesmoke;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.errorContent{
+  display: flex;
+  flex-direction: column;
+}
+.errorContent img{
+  height: 600px;
+  width: 600px;
+}
